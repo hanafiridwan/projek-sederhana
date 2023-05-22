@@ -1,0 +1,13 @@
+*{
+    background: aqua;
+}
+
+h2 {
+    background-color: red;
+    color: yellow;
+}
+
+p {
+    font-size: 30px;
+    color: blue;
+}

@@ -1,0 +1,47 @@
+/* img {
+    float: right;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto; /* membuat default margin menjadi 0 dan auto membuatnya ke tengah*/
+}
+
+.header {
+    height: 50px;
+    width: 100%; /* maksud dari 100% adalah ukuran dari width header ini 
+    mengikuti parentnya yaitu wrapper yang memiliki width 960 px*/
+    background: blue;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+    background: aqua;
+    margin-bottom: 10px;
+    overflow: hidden; /*maksud dari ini adalah menyembunyikan konten seolah - olah konten seperti terpotong (nanti hasilnya seperti ada space di dalam konten), scrool (akan muncul tampilan scrool di sebelah konten)*/
+}
+
+#berita {
+    width: 600px; /* ukuran width dari #berita dan #sidebar kalau dijumlah hasilnya harus 960px/mengikuti induknya yaitu wrapper*/
+    height: 700px;
+    background: blue;
+    float: left;
+}
+
+#sidebar {
+    width: 300px;
+    height: 200px;
+    background: purple;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: red; /*hasilnya nanti akan dempet dengan content. cara agar dia kebawah
+    dengan memasukan margin-buttom dan overflow: hidden; */
+}

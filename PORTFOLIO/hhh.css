@@ -1,0 +1,52 @@
+.profile img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 2px solid blue;
+}
+
+.profile{
+    padding-top: 120px;
+}
+
+.jumbotron{
+    height: 100vh;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer{
+    height: 100px;
+    bottom: 0;
+    background-color: black;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer a:hover {
+    color: aliceblue;
+}
+
+footer p i{
+    color: red;
+}

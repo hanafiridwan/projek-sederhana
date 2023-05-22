@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(239, 239, 239);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    margin-right: 259px;
+}
+
+nav ul li {
+    display: flex;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    background-color: unset;
+    /* gap: 20px; */
+}
+
+nav ul li a:hover {
+    background: rgb(121, 121, 242);
+}
+
+.container {
+    position: absolute;
+    left: 83%;
+    top: 4.5%;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    outline: none;
+    padding: 0 20px;
+    color: black;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgb(121, 121, 242);
+    border-radius: 50px ;
+}
+
+::placeholder {
+    color: grey;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: rgb(73, 43, 240);
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.iklan {
+    background-color: aliceblue;
+    height: 13%;
+    position: relative;
+    height: 100px;
+    width: 90%;
+    margin: 2px 55px;
+    /* padding: 0 4px; */
+}
+
+.list1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -250px;
+    background-color: inherit;
+}
+
+.content1 {
+    position: relative;
+    background-color: rgb(164, 197, 226);
+    font-family: arial;
+    font-size: 19px;
+    margin: 0 0 auto 55px;
+    /* padding: auto 0 auto 0; */
+    width: 90%;
+    height: 850px;
+}
+
+.list-anime {
+    display: flex;
+    gap: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.list-anime a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-anime .content {
+    margin-top: 20px;
+}
+
+.list-anime p {
+    text-align: center;
+    font-size: medium;
+}
+
+.list-anime h5 {
+    text-align: center;
+}
+
+.list-anime2 {
+    display: flex;
+    gap: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.list-anime2 p{
+    font-size: medium;
+}
+
+.list-anime3 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.list-anime3 p{
+    font-size: medium;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    background: #333;
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+}
+
+span{
+    margin: 2% 0 0 35%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+}
+
+span button {
+    border: none;
+    cursor: pointer;
+}
+
+span button:hover {
+    color: darkgray;
+}
+
+#satu {
+    width: 30px;
+    height: 20px;
+}
+
+#dua {
+    width: 30px;
+    height: 20px;
+}
+
+#tiga {
+    width: 30px;
+    height: 20px;
+}
+
+.next {
+    width: 30%;
+}
