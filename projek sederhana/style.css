@@ -107,61 +107,17 @@ input {
     position: relative;
     background-color: rgb(164, 197, 226);
     font-family: arial;
-    font-size: 19px;
-    margin: 0 0 auto 55px;
-    /* padding: auto 0 auto 0; */
     width: 90%;
     height: 850px;
+    margin: 0 0 0 4.5%;
 }
 
-.list-anime {
+.row {
     display: flex;
-    gap: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    justify-content: center;
-}
-
-.list-anime a {
-    text-decoration: none;
-    color: black;
-}
-
-.list-anime .content {
-    margin-top: 20px;
-}
-
-.list-anime p {
-    text-align: center;
-    font-size: medium;
-}
-
-.list-anime h5 {
-    text-align: center;
-}
-
-.list-anime2 {
-    display: flex;
-    gap: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    gap: 20px;
     text-align: center;
     justify-content: center;
-}
-
-.list-anime2 p{
-    font-size: medium;
-}
-
-.list-anime3 {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    justify-content: center;
-}
-
-.list-anime3 p{
-    font-size: medium;
 }
 
 .footer {
@@ -190,6 +146,10 @@ span button {
 
 span button:hover {
     color: darkgray;
+}
+
+.btn2 .previous {
+    background-color: blue;
 }
 
 #satu {
