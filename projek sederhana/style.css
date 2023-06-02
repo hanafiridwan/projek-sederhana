@@ -108,9 +108,19 @@ input {
     background-color: rgb(164, 197, 226);
     font-family: arial;
     width: 90%;
-    height: 850px;
+    height: 880px;
     margin: 20px 0 0 4.5%;
+}
 
+.new {
+    height: 25px;
+    background-color: #0082e6;
+    padding: 5px;
+}
+
+.new h4{
+    position: absolute;
+    margin: 0 0 0 1%;
 }
 
 .row {
@@ -122,16 +132,30 @@ input {
     padding-top: 30px;
 }
 
-.footer {
+.row a {
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.row .content:hover {
+    background-color: #0082e6;
+}
+
+.footer .container3 {
     width: 100%;
     position: absolute;
     background: #333;
-    margin: 0 10px 0 0;
+    margin: 20px 10px 0 0;
     padding: 10px 0;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 70px;
+}
+
+.footer .container3 p {
+    margin-top: 15px;
 }
 
 span{
@@ -152,6 +176,8 @@ span button:hover {
 
 .btn2 .previous {
     background-color: blue;
+    height: 20px;
+    width: 100px;
 }
 
 #satu {
@@ -169,6 +195,7 @@ span button:hover {
     height: 20px;
 }
 
-.next {
-    width: 30%;
+.btn2 .next {
+    width: 70px;
+    height: 18px;
 }
